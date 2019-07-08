@@ -4,5 +4,5 @@ import math
 #connect databases
 
 class db:
-   def __init__():
-      pass
+	def __init__():
+		
