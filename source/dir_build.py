@@ -18,4 +18,4 @@ def buildDir():
 
 with Path("c:/pySQL") as sysdir:
 	if not sysdir.exists():
-		Sysdir.
+                
