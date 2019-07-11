@@ -19,4 +19,4 @@ class db:
                 
 	def connect(username,password,name):
                 if self.password == password:
-                        os.System(“python ”
+                        os.System(“python DBF_utils.py”)
