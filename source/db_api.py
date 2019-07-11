@@ -18,5 +18,5 @@ class db:
 		self.name     = “sample_db”
                 
 	def connect(username,password,name):
-                if self.password == username:
-                        
+                if self.password == password:
+                        os.System(“python ”
