@@ -12,3 +12,7 @@ def save(code,path):
             _code = hex(_code)
             file.write(_code)
             return True
+def load(path):
+    with open(path,’r’) as file:
+        for i in file.read():
+            return i
