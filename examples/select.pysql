@@ -1,1 +1,4 @@
+BEGIN FILE `select.pysql`
+
 SELECT ALL FROM samp_db;
+
