@@ -10,4 +10,7 @@ Here’s how to install pysql:
 
 3) run `setup.py`
 
-4) 
+Then in order to customize the settings:
+
+1) go to the **settings** menu
+2) choose **edit**
