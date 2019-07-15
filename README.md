@@ -13,4 +13,7 @@ Here’s how to install pysql:
 Then in order to customize the settings:
 
 1) go to the **settings** menu
+
 2) choose **edit**
+
+<qwerty>
