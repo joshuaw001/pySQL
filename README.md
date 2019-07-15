@@ -24,4 +24,4 @@ Then in order to customize the settings:
 
 If you don’t own a pysql id, get one by using this link:
 
-[get your pysql key ] (about:blank)
+[key] (google.com)
