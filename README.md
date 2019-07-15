@@ -16,12 +16,6 @@ Then in order to customize the settings:
 
 2) choose **edit**
 
-3) you will see a pop-up asking for your id key
+3) edit the settings as you like
 
-4) enter your credentials
 
-5) change the settings of your choice
-
-If you don’t own a pysql id, get one by using this link:
-
-[key] (www.google.com)
