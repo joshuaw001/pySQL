@@ -14,8 +14,8 @@ c:/-->
 """
 
 def buildDir():
-    
+    pass
 
-with Path("c:/pySQL") as sysdir:
+with open(“c:/pysql”) as sysdir:
 	if not sysdir.exists():
-                
+                pass
