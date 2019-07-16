@@ -1,0 +1,5 @@
+BEGIN FILE `INT.pysql` AS `ex`;
+
+CREATE TABLE 
+
+END FILE `ex`;
