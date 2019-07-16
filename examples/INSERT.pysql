@@ -1,0 +1,9 @@
+BEGIN FILE `INSERT.pysql` AS `example`;
+
+INSERT FILE `CREATE.pysql` AS `names`;
+
+INSERT INTO `names` WITH VALUES BEING (1,`jimmy`,42);
+
+END FILE `names`;
+
+END FILE `example`;
