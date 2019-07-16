@@ -1,0 +1,5 @@
+BEGIN FILE `CREATE.pysql` AS `example`;
+
+CREATE TABLE names INDEXES (id INT, name TEXT, age INT);
+
+END FILE example;
