@@ -1,4 +1,4 @@
-BEGIN FILE `select.pysql` AS `example`;
+BEGIN FILE `SELECT.pysql` AS `example`;
 
 SELECT ALL FROM sampdb;
 
