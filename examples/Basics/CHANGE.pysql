@@ -1,0 +1,17 @@
+BEGIN FILE `CHANGE.pysql` AS `example`;
+
+INSERT FILE `CREATE.pysql` AS `a`;
+
+INSERT FILE `INSERT.pysql` AS `b`;
+
+CHANGE NAME `a` TO `c`;
+
+#the following makes an error:
+
+#END FILE `a`; #”a” no longer exists.
+
+END FILE `c`;
+
+END FILE `b`;
+
+END FILE `example`;
