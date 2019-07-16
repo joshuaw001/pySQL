@@ -2,4 +2,4 @@ BEGIN FILE `SELECT.pysql` AS `example`;
 
 SELECT ALL FROM sampdb;
 
-END FILE `example`;
+END FILE example;
