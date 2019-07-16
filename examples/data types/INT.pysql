@@ -1,5 +1,7 @@
 BEGIN FILE `INT.pysql` AS `ex`;
 
-CREATE TABLE 
+CREATE TABLE `example_tbl` INDEXES (id INT);
+
+INSERT 
 
 END FILE `ex`;
