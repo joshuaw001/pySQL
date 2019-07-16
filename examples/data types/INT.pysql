@@ -1,7 +1,7 @@
 BEGIN FILE `INT.pysql` AS `ex`;
 
-CREATE TABLE `example_tbl` INDEXES (id INT);
+CREATE TABLE `example_tbl` INDEXES (id INT, score INT LOCK);
 
-INSERT 
+INSERT FROM `example_tbl` WITH VALUES BEING (1, 25);
 
 END FILE `ex`;
