@@ -1,14 +1,4 @@
-#import required libraries:
-
 import math
-
-try:
-	import sqlite3
-	
-except ImportError:
-	import pymysql
-
-#connect databases:
 
 class db:
 	def __init__(self):
@@ -19,4 +9,4 @@ class db:
                 
 	def connect(username,password,name):
                 if self.password == password:
-                        os.System(“python DBF_utils.py”)
+                        os.System(“python DBF_utils”)
