@@ -13,12 +13,13 @@ class db:
 	def connect(username,password,name):
                 if _password == password:
                 	pass
+	def disconnect(name):
 
 
 class db_files:
 	class dir:
 		curr_dir = os.getcwd()
-	
+		
 	class dbf:
 		pass
 	
