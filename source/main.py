@@ -19,7 +19,7 @@ class db:
 class db_files:
 	class dir:
 		curr_dir = os.getcwd()
-		
+	
 	class dbf:
 		pass
 	
