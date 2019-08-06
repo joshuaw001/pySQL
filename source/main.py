@@ -11,6 +11,8 @@ class db:
 	_name     = "sample_db"
                 
 	def connect(username,password,name):
+		if not name:
+			
                 if _password == password:
                 	pass
 	def disconnect(name):
@@ -66,13 +68,5 @@ c:/-->
 -----name.tbl
 -----name.intf
 """
-
-def buildDir():
-    pass
-
-with open("c:/pysql") as sysdir:
-	if not sysdir.exists():
-                pass
-
-app = App()
-Query = TextBox()
+#app = App()
+#query = TextBox()
