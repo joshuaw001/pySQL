@@ -11,3 +11,25 @@ class VariableNotActiveError(PYSQLError):
         super().__init__()
         self.ERROR_TEXT = f"{self.__name__}: the variable definition {varname} is in an inactive state. re-activation is required for further use of {varname}."
         self.varname = varname
+class VariableWithIncorrectTypeError(PYSQLError):
+    pass
+
+class VariableWithNoVariableError(PYSQLError):
+    pass
+
+class WrongSyntaxFromInputError(PYSQLError):
+    pass
+
+class StringQuoteMismatchedError(PYSQLError):
+    pass
+
+class UnsignedNumberHasNegativeValueError(PYSQLError):
+    pass
+
+class AttemptedBuiltinVariableDeletionError(PYSQLError):
+    pass
+
+class NothingInputtedError(PYSQLError):
+    pass
+
+#ended file... for now!!!!!
